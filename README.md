@@ -1,2 +1,2 @@
 # Vaibhav-Shopping-cart
-BlentVidyaProjrct
+BlentVidyaProject
