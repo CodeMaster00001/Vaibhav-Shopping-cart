@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="login.html">
+    <title>VAIBHAV VEGETABLE STORE</title>
+    <style>
+        /* Add your CSS styles here */
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1 class="name" style="color: white;"> VEGETABLE STORE</h1>
+        <marquee behavior="scroll" direction="left">
+            <img src="3.jpeg" alt="Image 3" width="300" height="200">
+            <img src="4.jpeg" alt="Image 4" width="300" height="200">
+            <img src="1.jpeg" alt="Image 1" width="300" height="200">
+            <img src="5.jpeg" alt="Image 5" width="300" height="200">
+            <img src="2.jpeg" alt="Image 2" width="300" height="200">
+        <!-- Add more images... -->
+    </marquee>
+    </header>
+
+    <section id="products">
+        <div class="product">
+           <!--  <img src="product1.jpg" alt="Product 1">
+            <h3>Asparagus</h3>
+            <p>Asparagus is a plant whose young green shoots are a good source of fibre and vitamins A, K and C.</p>
+            <p>$19.99</p>
+            <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Asparagus</h3>
+            <p>Asparagus is a plant whose young green shoots are a good source of fibre and vitamins A, K and C.</p>
+            <p>$19.99</p>
+            <button onclick="addToCart('Product 2', 19.99)">Add to Cart</button>
+        <ul>
+            <th>ssmakm</th>
+            <th>cbkdc</th>
+            <td>bhdb</td>
+            <td>bshih</td>
+        </ul>
+         -->
+         <!-- Add more products... -->
+         <table>
+             <thead>
+                
+                 <tr>
+                     <th>Vegetable </th>
+                     <th>Description </th>
+                     <th>price/kg </th>
+                     <th>Add to cart </th>
+                    </tr>
+                
+                </thead>
+                <tbody>
+                    
+                    <tr>
+                    <td>Potato</td>
+                    <td>Starchy tuberous crop</td>
+                    <td>20</td>
+                    <td><button onclick="addToCart('Potato', 20)">Add to Cart</button></td>
+                </tr>
+
+                <tr>
+                    <td>Cabbage</td>
+                    <td>Leafy green or purple biennial plant</td>
+                    <td>25</td>
+                    <td><button onclick="addToCart('Cabbage', 25)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Tomato</td>
+                    <td>Red or yellowish fruit with juicy pulp</td>
+                    <td>20</td>
+                    <td><button onclick="addToCart('Tomato', 50)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Cauliflower</td>
+                    <td>Edible flower buds</td>
+                    <td>25</td>
+                    <td><button onclick="addToCart('Cauliflower',25)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Spinach</td>
+                    <td>Leafy green vegetable</td>
+                    <td>30</td>
+                    <td><button onclick="addToCart('Spinach', 30)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Asparagus</td>
+                    <td>Green vegetable spears</td>
+                    <td>250</td>
+                    <td><button onclick="addToCart('Asparagus', 250)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Brinjal</td>
+                    <td>Egg-shaped vegetable with glossy skin</td>
+                    <td>180</td>
+                    <td><button onclick="addToCart('Brinjal', 180)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Carrot</td>
+                    <td>Orange-colored root vegetable</td>
+                    <td>80</td>
+                    <td><button onclick="addToCart('Carrot', 80)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Peas</td>
+                    <td>Edible green seeds in a pod</td>
+                    <td>35</td>
+                    <td><button onclick="addToCart('Peas', 35)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Celery</td>
+                    <td>Crunchy stalks with leaves</td>
+                    <td>60</td>
+                    <td><button onclick="addToCart('Celery', 60)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Bitter gourd</td>
+                    <td>Bitter-tasting green vegetable</td>
+                    <td>20</td>
+                    <td><button onclick="addToCart('Bitter gourd', 130)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Beans</td>
+                    <td>Podded seeds or green beans</td>
+                    <td>110</td>
+                    <td><button onclick="addToCart('Beans', 110)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Pumpkin</td>
+                    <td>Orange-colored squash</td>
+                    <td>20</td>
+                    <td><button onclick="addToCart('Pumpkin', 20)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Cucumber</td>
+                    <td>Long, green-skinned vegetable</td>
+                    <td>40</td>
+                    <td><button onclick="addToCart('Cucumber', 40)">Add to Cart</button></td>
+
+                </tr>
+                <tr>
+                    <td>Tomato</td>
+                    <td>Red or yellowish fruit with juicy pulp</td>
+                    <td>20</td>
+                    <td><button onclick="addToCart('Tomato', 20)">Add to Cart</button></td>
+
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="productss">
+        <img src="6.jpeg" alt="vegetables">
+        <img src="5.jpeg" alt="veg">
+    </div>
+    </section>
+    
+    <section id="cart">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p style="font-size: 50px" >Total: $<span id="cart-total">0.00</span></p>
+        <button onclick="checkout()">Checkout</button>
+    </section>
+
+    <script>
+       // JavaScript for shopping cart functionality
+        let cartItems = [];
+        let cartTotal = 0;
+
+        function addToCart(productName, price) {
+            cartItems.push({ name: productName, price: price });
+            cartTotal += price;
+
+            updateCart();
+        }
+
+        function removeFromCart(index) {
+            const removedItem = cartItems.splice(index, 1)[0];
+            cartTotal -= removedItem.price;
+
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartList = document.getElementById('cart-items');
+            const totalSpan = document.getElementById('cart-total');
+
+            // Clear previous items
+            cartList.innerHTML = '';
+
+            // Add updated items
+            cartItems.forEach((item, index) => {
+                const li = document.createElement('li');
+                li.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+                const removeButton = document.createElement('button');
+                removeButton.textContent = 'Remove';
+                removeButton.onclick = () => removeFromCart(index);
+                li.appendChild(removeButton);
+                cartList.appendChild(li);
+            });
+
+            // Update total
+            totalSpan.textContent = cartTotal.toFixed(2);
+        }
+
+        function checkout() {
+            // Simulate checkout process
+            alert(`Total Amount: $${cartTotal.toFixed(2)} - Payment Successful`);
+            // Reset cart after successful payment
+            cartItems = [];
+            cartTotal = 0;
+            updateCart();
+        }
+    </script>
+</body>
+</html>
